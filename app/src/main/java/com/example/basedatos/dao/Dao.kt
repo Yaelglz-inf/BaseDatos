@@ -8,5 +8,5 @@ interface UsuarioDao {
     @Insert
     suspend fun insertarUsuario(usuario: Usuario)
     @Query("SELECT * FROM usuarios_table")
-            suspend fun obtenerUsuarios(): List<Usuario>
+    suspend fun obtenerUsuarios(): List<Usuario>
 }
