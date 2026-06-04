@@ -3,9 +3,12 @@ package com.example.basedatos
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
+import com.example.basedatos.databinding.ActivityMainBinding
 import com.example.basedatos.db.AppDatabase
 
 class MyApplication: Application() {
+
+
 
     companion object {
         @Volatile
